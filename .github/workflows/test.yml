@@ -21,7 +21,6 @@ jobs:
         with:
           ruby-version: 2.6
           bundler-cache: true
-
       - name: Run checks
         id: checks
         # shell: bash +e +o pipefail {0}
